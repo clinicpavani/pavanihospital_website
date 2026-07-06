@@ -1,0 +1,10 @@
+# Antigravity IDE and subagent workspace configs
+.gemini/
+.agents/
+.kombai/
+scratchpad_*
+powershell.cmd
+walkthrough.md
+implementation_plan.md
+task.md
+*.log

@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Pavani Hospital is the best outpatient hospital in Thullur, serving patients across Thullur Mandal, Tadikonda Mandal, and Amaravati. Family medicine, diagnostics, lab, X-ray, scanning, and pharmacy.">
+  <meta name="keywords" content="hospital near me, best hospital in Thullur Mandal, hospitals in Tadikonda Mandal, hospital near Tadikonda, diagnostic center Thullur, Pavani Hospital, outpatient clinic Amaravati, doctor in Thullur, lab diagnostics Thullur">
+  <title>Pavani Hospital — Best Outpatient Hospital in Thullur &amp; Tadikonda Mandals</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/png" href="images/logo1.png">
+  <link rel="stylesheet" href="css/style.css?v=3.4">
+
+  <!-- Schemas -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "MedicalClinic",
+    "name": "Pavani Hospital",
+    "alternateName": "Best Outpatient Hospital in Thullur",
+    "image": "https://pavanihospital.com/logo.png",
+    "url": "https://pavanihospital.com",
+    "telephone": ["+919014669818", "+917207968181"],
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "6-692C, Library Centre, Thullur",
+      "addressLocality": "Thullur",
+      "addressRegion": "Andhra Pradesh",
+      "postalCode": "522237",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "16.5414",
+      "longitude": "80.4435"
+    },
+    "areaServed": [
+      {
+        "@type": "AdministrativeArea",
+        "name": "Thullur Mandal"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Tadikonda Mandal"
+      },
+      {
+        "@type": "AdministrativeArea",
+        "name": "Amaravati"
+      }
+    ],
+    "knowsAbout": [
+      "Family Medicine",
+      "Clinical Diagnostics",
+      "Outpatient Services",
+      "Pediatrics",
+      "General Consultation"
+    ]
+  }
+  </script>
+</head>
+<body>
+
+  <!-- WebGL Canvas for 3D Scene -->
+  <canvas id="webgl-canvas"></canvas>
+
+
+
+  <!-- Global App Frame -->
+  <div class="app-frame">
+    
+    <!-- Top Brand Navbar -->
+    <header class="app-navbar">
+      <a href="#welcome" class="nav-logo">
+        <img src="images/logo.png" alt="Pavani Hospital Logo">
+      </a>
+      <nav class="navbar-links-deck">
+        <a href="#welcome" class="topnav-link active">Overview</a>
+        <a href="#legacy" class="topnav-link">Legacy</a>
+        <a href="#specialties" class="topnav-link">Specialties</a>
+        <a href="#team" class="topnav-link">Board</a>
+        <a href="#infrastructure" class="topnav-link">Infrastructure</a>
+        <a href="#booking" class="topnav-link">Book OPD</a>
+        <a href="#location" class="topnav-link">Find Us</a>
+      </nav>
+      <div class="nav-actions-group">
+        <div class="nav-status">
+          <span class="status-pulse"></span>
+          <span class="status-lbl">Emergency 24/7</span>
+        </div>
+        <a href="#booking" class="quick-book-btn">
+          <span>Book Now</span>
+        </a>
+      </div>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </header>
+
+    <!-- Mobile Overlay Menu -->
+    <div class="mobile-overlay" id="mobile-overlay">
+      <a href="#welcome">Overview</a>
+      <a href="#legacy">Our Legacy</a>
+      <a href="#specialties">Specialties</a>
+      <a href="#team">Physicians</a>
+      <a href="#infrastructure">Diagnostics</a>
+      <a href="#booking">Book OPD</a>
+      <a href="#location">Directions</a>
+    </div>
+
+    <!-- Top Announcement Marquee Ticker -->
+    <div class="app-marquee">
+      <div class="marquee-scroller">
+        <span>THE SCIENCE OF HEALING • THE ART OF CARE • PATIENT FIRST HEALTHCARE • SERVING THULLUR &amp; AMARAVATI SINCE 2021 • EMERGENCY DESK ACTIVE 24 HOURS</span>
+        <span>THE SCIENCE OF HEALING • THE ART OF CARE • PATIENT FIRST HEALTHCARE • SERVING THULLUR &amp; AMARAVATI SINCE 2021 • EMERGENCY DESK ACTIVE 24 HOURS</span>
+      </div>
+    </div>
+
+    <!-- Main Panoramic 3D Space Container -->
+    <main class="panoramic-container" id="panoramic-container">
+
+      <!-- Slide 1: Welcome Overview -->
+      <section class="pan-slide" id="welcome">
+        <div class="slide-content hero-body">
+          <div class="hero-left">
+            <div class="minimal-badge">THE SCIENCE OF HEALING</div>
+            <h1 class="hero-title">
+              Patient-First Outpatient Care in <span class="accent">Thullur</span>.
+            </h1>
+            <p class="slide-desc">
+              Led by chief physician &amp; diabetologist Dr. Ch. Satish Sri Vastav. Delivering transparent outpatient diagnostics, diabetes screening, and clinical general medicine with same-day lab reports.
+            </p>
+            <div class="action-dock">
+              <a href="#booking" class="interactive-cta">
+                <span>Enter OPD Booking Triage</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+              <div class="hero-phone-container" style="display: inline-flex; align-items: center; gap: 0.5rem; font-family: var(--font-h); font-size: 0.88rem; font-weight: 600; color: var(--text-muted);">
+                <span>Helpline:</span>
+                <a href="tel:9014669818" class="secondary-phone-link" style="color: var(--text-primary); transition: color 0.2s ease;">9014669818</a>
+                <span style="opacity: 0.4;">/</span>
+                <a href="tel:7207968181" class="secondary-phone-link" style="color: var(--text-primary); transition: color 0.2s ease;">7207968181</a>
+              </div>
+            </div>
+          </div>
+          <div class="hero-right">
+            <div class="hero-clinical-photo-wrapper">
+              <img src="images/reception_lobby.png" alt="Pavani Hospital Reception Lobby" class="hero-clinical-photo">
+              <div class="hero-photo-badge">
+                <span class="badge-status-dot"></span>
+                <span>Library Centre, Thullur • Open Daily</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 2: The Legacy (2-column editorial split) -->
+      <section class="pan-slide" id="legacy">
+        <div class="slide-content editorial-split">
+          <div class="editorial-left">
+            <span class="minimal-badge">ESTABLISHED 2021</span>
+            <h2 class="slide-title">A commitment to <span class="accent">ethical</span> patient care.</h2>
+            <div class="citation-block">
+              <blockquote>
+                "Their generosity in treating patients without being money-minded, and their passion to cure is the best thing."
+              </blockquote>
+              <cite>— Verified Google Maps consultation review</cite>
+            </div>
+          </div>
+          <div class="editorial-right">
+            <p>Under the clinical direction of <strong>Dr. Ch. Satish Sri Vastav</strong>, Pavani Hospital is recognized as the best hospital in Thullur Mandal, serving families across Thullur Mandal, Tadikonda Mandal, and the greater Amaravati region looking for a trusted hospital near them.</p>
+            <p>As one of the leading outpatient clinics and diagnostic centers in Thullur and Tadikonda Mandals, our clinical approach focuses on evidence-based medicine, eliminating unnecessary prescriptions, and ensuring transparent rates for pharmacy, laboratory panels, and digital scans.</p>
+            
+            <div class="metrics-lines">
+              <div class="metric-line-item">
+                <span class="m-val" data-target="5">5</span>
+                <span class="m-lbl">YEARS LEGACY</span>
+              </div>
+              <div class="metric-line-item">
+                <span class="m-val" data-target="4.7">4.7★</span>
+                <span class="m-lbl">GOOGLE RATING</span>
+              </div>
+              <div class="metric-line-item">
+                <span class="m-val" data-target="10000">10k+</span>
+                <span class="m-lbl">FAMILIES CONSULTED</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 3: Specialties Grid -->
+      <section class="pan-slide" id="specialties">
+        <div class="slide-content">
+          <div class="minimal-badge">CLINICAL SERVICES</div>
+          <h2 class="slide-title">Outpatient <span class="accent">Specialties</span></h2>
+          
+          <!-- Specialty Image Grid Cards -->
+          <div class="specialties-image-grid">
+            <!-- Specialty 1 -->
+            <div class="specialty-image-card">
+              <img src="images/dept_general.png" alt="General Medicine &amp; Diabetology" class="sic-img">
+              <div class="sic-overlay">
+                <span class="sic-num">01</span>
+                <h3>General Medicine &amp; Diabetology</h3>
+                <p>Outpatient primary checks, diabetes screening, and long-term diagnostic management programs.</p>
+                <div class="sic-footer">
+                  <span class="sic-badge">Dr. Satish Sri Vastav</span>
+                  <span class="sic-schedule">Mon - Sat</span>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Specialty 2 -->
+            <div class="specialty-image-card">
+              <img src="images/dept_cardio.png" alt="Cardiology &amp; Heart Care" class="sic-img">
+              <div class="sic-overlay">
+                <span class="sic-num">02</span>
+                <h3>Cardiology &amp; Heart Care</h3>
+                <p>Preventive consultations, specialized cardiac panels, ECG checkups, and hyper-tension diagnostics.</p>
+                <div class="sic-footer">
+                  <span class="sic-badge">Dr. Anjith Vupputuri</span>
+                  <span class="sic-schedule">4th Friday</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Specialty 3 -->
+            <div class="specialty-image-card">
+              <img src="images/dept_gyn.png" alt="Gynecology &amp; Maternity" class="sic-img">
+              <div class="sic-overlay">
+                <span class="sic-num">03</span>
+                <h3>Gynecology &amp; Maternity</h3>
+                <p>Comprehensive prenatal care, women's wellness panels, and consulting on modern fertility solutions.</p>
+                <div class="sic-footer">
+                  <span class="sic-badge">Dr. Jasthi Pratyusha</span>
+                  <span class="sic-schedule">2nd &amp; 4th Thu</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Specialty 4 -->
+            <div class="specialty-image-card">
+              <img src="images/dept_gastro.png" alt="Surgical Gastroenterology" class="sic-img">
+              <div class="sic-overlay">
+                <span class="sic-num">04</span>
+                <h3>Surgical Gastroenterology</h3>
+                <p>Specialist outpatient reviews, stomach &amp; digestive track profiles, and pre-surgery guidelines.</p>
+                <div class="sic-footer">
+                  <span class="sic-badge">Dr. A. Koti Venkateswara</span>
+                  <span class="sic-schedule">By Appt</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 4: Detailed Medical Team -->
+      <section class="pan-slide" id="team">
+        <div class="slide-content">
+          <div class="minimal-badge">MEDICAL BOARD</div>
+          <h2 class="slide-title">Dedicated <span class="accent">Physicians</span></h2>
+          
+          <div class="physicians-container">
+            <!-- Physician Row 0: Dr. Satish -->
+            <div class="physician-row active" data-doc="0">
+              <div class="p-col-main">
+                <span class="p-role">GENERAL PHYSICIAN &amp; DIABETOLOGIST</span>
+                <h3>Dr. Ch. Satish Sri Vastav, MBBS</h3>
+              </div>
+              <div class="p-col-timings">
+                <strong>OPD HOURS</strong>
+                <span>Mon – Sat (10:00 AM – 2:00 PM | 5:00 PM – 9:00 PM)</span>
+              </div>
+            </div>
+
+            <!-- Physician Row 1: Dr. Anjith -->
+            <div class="physician-row" data-doc="1">
+              <div class="p-col-main">
+                <span class="p-role role-visiting">CARDIOLOGIST</span>
+                <h3>Dr. Anjith Vupputuri, MD, DM</h3>
+              </div>
+              <div class="p-col-timings">
+                <strong>OPD HOURS</strong>
+                <span>4th Friday of every Month (6:00 PM – 8:00 PM)</span>
+              </div>
+            </div>
+
+            <!-- Physician Row 2: Dr. Pratyusha -->
+            <div class="physician-row" data-doc="2">
+              <div class="p-col-main">
+                <span class="p-role role-visiting">GYNECOLOGIST &amp; FERTILITY SPECIALIST</span>
+                <h3>Dr. Jasthi Pratyusha, MS (OG)</h3>
+              </div>
+              <div class="p-col-timings">
+                <strong>OPD HOURS</strong>
+                <span>2nd &amp; 4th Thursday of every Month (5:00 PM – 7:00 PM)</span>
+              </div>
+            </div>
+
+            <!-- Physician Row 3: Dr. Koti Venkateswara -->
+            <div class="physician-row" data-doc="3">
+              <div class="p-col-main">
+                <span class="p-role">SURGICAL GASTROENTEROLOGIST</span>
+                <h3>Dr. A. Koti Venkateswara Rao, MS, DNB</h3>
+              </div>
+              <div class="p-col-timings">
+                <strong>OPD HOURS</strong>
+                <span>By Special Appointment Scheduling Only</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 5: Infrastructure & Diagnostics -->
+      <section class="pan-slide" id="infrastructure">
+        <div class="slide-content">
+          <div class="minimal-badge">INFRASTRUCTURE</div>
+          <h2 class="slide-title">Clinical <span class="accent">Diagnostics</span> &amp; Triage</h2>
+          
+          <div class="infrastructure-deck">
+            <!-- Facility 1 -->
+            <div class="infra-panel">
+              <div class="ip-photo-wrapper">
+                <img src="images/infra_lab.png" alt="Diagnostics Laboratory" class="ip-img">
+              </div>
+              <div class="ip-content">
+                <h4>Diagnostics Laboratory</h4>
+                <p>Complete clinical biochemistry panels, full blood counts, lipid profiles, and quick diagnostics.</p>
+                <div class="infra-status active">AVAILABLE ALL DAYS</div>
+              </div>
+            </div>
+
+            <!-- Facility 2 -->
+            <div class="infra-panel">
+              <div class="ip-photo-wrapper">
+                <img src="images/infra_pharmacy.png" alt="In-house Pharmacy" class="ip-img">
+              </div>
+              <div class="ip-content">
+                <h4>In-House Pharmacy</h4>
+                <p>Fully stocked with standard prescription formulations, general health medicines, and surgical supplies.</p>
+                <div class="infra-status active">AVAILABLE ALL DAYS</div>
+              </div>
+            </div>
+
+            <!-- Facility 3 -->
+            <div class="infra-panel">
+              <div class="ip-photo-wrapper">
+                <img src="images/infra_xray.png" alt="Digital X-Ray Room" class="ip-img">
+              </div>
+              <div class="ip-content">
+                <h4>Digital X-Ray</h4>
+                <p>High-resolution radiographic checks for structural fractures, chest screens, and diagnostics support.</p>
+                <div class="infra-status active">AVAILABLE ALL DAYS</div>
+              </div>
+            </div>
+
+            <!-- Facility 4 -->
+            <div class="infra-panel">
+              <div class="ip-photo-wrapper">
+                <img src="images/infra_scan.png" alt="Ultrasound Scan Room" class="ip-img">
+              </div>
+              <div class="ip-content">
+                <h4>Ultrasound Scanning</h4>
+                <p>High-frequency clinical sonography scans. Available on restricted schedule hours.</p>
+                <div class="infra-status restricted">MON &amp; FRI (4PM - 6PM)</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 6: Digital Booking Form -->
+      <section class="pan-slide" id="booking">
+        <div class="slide-content editorial-split">
+          <div class="editorial-left">
+            <span class="minimal-badge">OPD TRIAGE CONSOLE</span>
+            <h2 class="slide-title">Request an <span class="accent">Appointment</span></h2>
+            <p>Complete the form inputs. Upon clicking submit, our triage console packages your data and opens a direct synchronization thread with our reception desk on WhatsApp.</p>
+            
+            <div class="emergency-stabilizer">
+              <h5>Helpline Desk</h5>
+              <a href="tel:9014669818" class="hl-large" style="display: block; margin-bottom: 0.5rem;">90146 69818</a>
+              <a href="tel:7207968181" class="hl-large" style="display: block;">72079 68181</a>
+              <p>Available daily for patient appointments and triage.</p>
+            </div>
+          </div>
+          <div class="editorial-right">
+            <form id="triage-booking-form" class="triage-form tilt-card">
+              <div class="form-row">
+                <div class="form-item">
+                  <label for="patient-name">PATIENT NAME *</label>
+                  <input type="text" id="patient-name" required placeholder="Full patient name">
+                </div>
+                <div class="form-item">
+                  <label for="patient-phone">WHATSAPP CONTACT *</label>
+                  <input type="tel" id="patient-phone" required placeholder="e.g. 90146 69818" pattern="[0-9\s\+\-]{10,15}">
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-item">
+                  <label for="doc-select">CONSULTING PHYSICIAN *</label>
+                  <select id="doc-select" required>
+                    <option value="" disabled selected>Select Physician...</option>
+                    <option value="Dr. Ch. Satish Sri Vastav">Dr. Satish (General Medicine)</option>
+                    <option value="Dr. Anjith Vupputuri">Dr. Anjith (Cardiology)</option>
+                    <option value="Dr. Jasthi Pratyusha">Dr. Jasthi Pratyusha (Gynecology)</option>
+                    <option value="Dr. A. Koti Venkateswara Rao">Dr. Koti Rao (Gastroenterology)</option>
+                  </select>
+                </div>
+                <div class="form-item">
+                  <label for="app-date">REQUESTED DATE *</label>
+                  <input type="date" id="app-date" required>
+                </div>
+              </div>
+              <div class="form-item">
+                <label for="patient-desc">SYMPTOMS / REASON FOR VISIT</label>
+                <textarea id="patient-desc" rows="2" placeholder="Brief clinical background..."></textarea>
+              </div>
+              <button type="submit" class="submit-action-btn">
+                <span>Synchronize &amp; Connect via WhatsApp</span>
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"/></svg>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- Slide 7: Directions & Core Info -->
+      <section class="pan-slide" id="location">
+        <div class="slide-content editorial-split">
+          <div class="editorial-left">
+            <span class="minimal-badge">MAPS &amp; DIRECTIONS</span>
+            <h2 class="slide-title">Visit <span class="accent">Pavani Hospital</span></h2>
+            
+            <div class="address-card">
+              <div class="address-item">
+                <strong>CLINICAL HEADQUARTERS</strong>
+                <p>6-692C, Library Centre, Thullur, Amaravati, Andhra Pradesh - 522237</p>
+              </div>
+              <div class="address-item">
+                <strong>RECEPTION HOURS</strong>
+                <p>Monday - Saturday: 9:00 AM – 1:00 PM | 4:00 PM – 8:00 PM</p>
+              </div>
+              <div class="address-item">
+                <strong>EMAIL ENQUIRIES</strong>
+                <p><a href="mailto:clinic.pavani@gmail.com">clinic.pavani@gmail.com</a></p>
+              </div>
+            </div>
+
+            <a href="https://maps.app.goo.gl/2M5xQxdwmiFtjkv57" target="_blank" class="maps-redirect-btn">
+              <span>Open Google Maps</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+            </a>
+          </div>
+          <div class="editorial-right">
+            <div class="map-container-frame tilt-card">
+              <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3826.1158145209355!2d80.4705594!3d16.5289222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a35f3d32483d735%3A0xc3b8393e1ea84b0!2sPavani%20Hospital!5e0!3m2!1sen!2sin!4v1719391000000!5m2!1sen!2sin" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade"
+                sandbox="allow-scripts allow-same-origin allow-popups"
+                title="Google Maps Location Frame">
+              </iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- App Bottom Footer -->
+    <footer class="app-footer">
+      <div class="footer-meta">
+        <span class="copyright-lbl">&copy; 2026 Pavani Hospital. All rights reserved.</span>
+        <div class="footer-bottom-links">
+          <a href="tel:9014669818" title="Call Helpline">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          </a>
+          <a href="mailto:clinic.pavani@gmail.com" title="Email Us">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+          </a>
+          <a href="https://wa.me/919014669818" target="_blank" title="WhatsApp Chat">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          </a>
+          <a href="https://maps.app.goo.gl/2M5xQxdwmiFtjkv57" target="_blank" title="Open Google Maps">
+            <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <!-- WhatsApp Booking Synced Handshake Modal Overlay -->
+  <div class="triage-overlay" id="triage-overlay">
+    <div class="triage-modal-card">
+      <div class="handshake-signal">
+        <div class="signal-ring"></div>
+        <div class="signal-ring-outer"></div>
+        <div class="check-glyph">
+          <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#25D366" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>
+        </div>
+      </div>
+      <h3 class="triage-modal-title">Syncing with Booking Desk</h3>
+      <p class="triage-modal-desc">Formatting secure data packet. Establishing direct handshake link to WhatsApp...</p>
+      <div class="sync-progress">
+        <div class="sync-bar"></div>
+      </div>
+      <button class="fallback-wa-trigger" id="fallback-wa-btn" style="display: none;">Force Sync Manually</button>
+    </div>
+  </div>
+
+  <!-- Floating 3D Navigation Hub (Mobile dock) -->
+  <nav class="panoramic-dock">
+    <a href="#welcome" class="dock-item active" data-slide="welcome">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      <span>Welcome</span>
+    </a>
+    <a href="#specialties" class="dock-item" data-slide="specialties">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+      <span>Specs</span>
+    </a>
+    <a href="#booking" class="dock-item dock-triage" data-slide="booking">
+      <div class="triage-hub-circle">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="#FFFFFF" stroke-width="2.5"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/></svg>
+      </div>
+      <span>Book</span>
+    </a>
+    <a href="#team" class="dock-item" data-slide="team">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/></svg>
+      <span>Board</span>
+    </a>
+    <a href="#location" class="dock-item" data-slide="location">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
+      <span>Maps</span>
+    </a>
+  </nav>
+
+  <!-- Sticky Floating WhatsApp Help Widget -->
+  <a href="https://wa.me/919014669818?text=Hello%20Pavani%20Hospital" target="_blank" class="floating-whatsapp-widget" aria-label="WhatsApp Chat" title="WhatsApp Chat">
+    <div class="whatsapp-pulse-ring"></div>
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.587-5.946C.003 5.324 5.328 0 11.859 0c3.166.001 6.141 1.236 8.378 3.479 2.238 2.242 3.468 5.214 3.464 8.378-.005 6.533-5.33 11.858-11.863 11.858-2.001-.002-3.97-.509-5.728-1.478L0 24zm6.549-3.707c1.656.982 3.284 1.498 4.795 1.5 5.373-.001 9.743-4.373 9.746-9.749.002-2.603-1.01-5.051-2.85-6.892C16.398 3.311 13.953 2.3 11.353 2.3 5.975 2.3 1.605 6.671 1.602 12.049c-.001 1.644.47 3.248 1.488 4.75l-1.009 3.687 3.791-.993zm11.597-6.862c-.302-.152-1.791-.883-2.068-.984-.278-.1-.48-.152-.682.152-.201.304-.778.983-.954 1.185-.176.203-.353.228-.655.076-.302-.152-1.277-.47-2.433-1.501-.899-.802-1.506-1.792-1.682-2.096-.177-.304-.019-.468.132-.619.136-.136.302-.353.454-.53.151-.177.202-.303.302-.506.101-.202.05-.38-.025-.531-.076-.152-.682-1.644-.934-2.251-.246-.593-.497-.513-.682-.522-.176-.008-.378-.01-.58-.01-.201 0-.53.076-.807.38-.278.304-1.06 1.037-1.06 2.529s1.085 2.934 1.236 3.136c.152.202 2.136 3.262 5.174 4.57.722.311 1.286.497 1.725.637.725.23 1.385.197 1.906.12.58-.087 1.791-.733 2.044-1.442.252-.708.252-1.315.177-1.442-.076-.127-.278-.202-.58-.354z"/></svg>
+  </a>
+
+  <!-- CDNs for WebGL and Animations -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
