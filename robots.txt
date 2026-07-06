@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://pavanihospital.com/sitemap.xml
+Sitemap: https://pavanihospital.in/sitemap.xml
